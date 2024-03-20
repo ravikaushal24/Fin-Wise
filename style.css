@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+#banner {
+  background: url("646557ee455c3e16e4a9bfa8_bg.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  background-color: rgb(2, 2, 33);
+}
+.banner-text {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.banner-text h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.banner-text p {
+  font-size: 18px;
+}
+.banner-button {
+  margin: 70px auto 0;
+}
+.banner-button a {
+  width: 150px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: white;
+  position: relative;
+  border: 0.5px solid white;
+  z-index: 1;
+  transition: color 0.5s;
+  border-radius: 10px;
+}
+.banner-button a span {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: -1;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.banner-button a:hover span {
+  width: 100%;
+}
+.banner-button a:hover {
+  color: black;
+}
+.navbar {
+  background: rgba(5, 1, 14, 0.31);
+  padding: 1rem 2.5rem;
+  /* margin: 2px 10px 1px 5px; */
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 2px;
+  position: fixed;
+  width: 95%;
+  background-color: rgb(2, 2, 30);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(233, 240, 240);
+}
+.items {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 4rem;
+  padding-left: 50px;
+}
+.items a {
+  color: white;
+  text-decoration: none;
+}
+.button_signup {
+  padding: 0.7rem;
+  color: white;
+  cursor: pointer;
+  border: 2px solid;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(2, 2, 25);
+  border-radius: 10px;
+}
+.button_login {
+  padding: 0.7rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+.button_signup:hover {
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(218, 222, 222);
+  padding-top: 7px;
+  font-size: 25px;
+}
+.items-menu {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.active {
+  /* background-color:rgb(152, 78, 78); */
+
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px, white;
+}

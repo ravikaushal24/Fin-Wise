@@ -1,0 +1,138 @@
+:root {
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 450;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: #2a1c78;
+}
+a:hover {
+  text-decoration: underline;
+}
+.small {
+  font-size: 80%;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  height: 200px;
+}
+.right,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url("adrien-ledoux-mBHuEkka5wM-unsplash.jpg");
+  background-size: cover;
+}
+.right .Text {
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: anatialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.right p {
+  font-weight: 400;
+}
+.left .Text {
+  color: black;
+  text-align: center;
+}
+.left .Text p {
+  margin: 1.5em 0;
+  font-size: 0.88rem;
+}
+.right form {
+  width: 300px;
+}
+form input[type="text"],
+form input[type="password"] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  padding: 1em;
+  margin: 1.25rem;
+  font-size: 0.8;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75;
+}
+.Container_input_Password {
+  position: relative;
+}
+.Container_input_Again_Password {
+  position: relative;
+}
+.Signup_button {
+  display: block;
+  width: 100%;
+  background: #29448c;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.Signup_button:hover {
+  background: #2c4893;
+  cursor: pointer;
+}
+.Google_login {
+  position: absolute;
+  align-items: center;
+}
+.Google_login_button {
+  display: inline;
+  width: auto;
+  background: #29448c;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 100%;
+  margin: 0.5rem;
+}
+@media screen and (min-width: 900px) {
+  .content {
+    flex-direction: row;
+    height: 100vh;
+  }
+  .right,
+  .left {
+    display: flex;
+    width: 50%;
+    height: auto;
+  }
+}

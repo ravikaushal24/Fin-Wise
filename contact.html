@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Contact Us | Fin-wise
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav">
+            <div class="logo">
+                fin-wise
+            </div>
+            <li class="items">
+                <a class="items-menu  " onclick="toggleActive(this)" href="index.html">HOME</a>
+                <a class="items-menu active " onclick="toggleActive(this)" href="contact.html">CONTACT</a>
+                <a class="items-menu " onclick="toggleActive(this)" href="about.html">ABOUT</a>
+            </li>
+            <div class="buttons">
+                <a href="login.html">
+                    <button class="button_login">
+                        Log in
+                    </button>
+                </a>
+                <a href="signup.html">
+                    <button class="button_signup">
+                        sign up
+                    </button>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Connect with us</h1>
+        <p>We would love to respond to your queries and help you succeed <br>Feel free to get in touch with us </p>
+    </div>
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Sent your request</h3>
+            <form action="https://formsubmit.co/akakashgoyal123@gmail.com" method="POST">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name:</label>
+                        <input type="text" name="name" placeholder="Enter name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone:</label>
+                        <input type="text" name="phone" placeholder="91-9911xxxxxx">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="xyz@gmail.com">
+                    </div>
+                    <div class="input-group">
+                        <label>Subject:</label>
+                        <input type="text" name="subject" placeholder="write subject">
+                    </div>
+                </div>
+                <label>
+                    Message
+                </label>
+                <textarea name="message" placeholder="Write message" cols="30" rows="5"></textarea>
+                <button class="submit_button" type="submit">SEND</button>
+            </form>
+        </div>
+        <div class="contact-right">
+            <h3>Reach Us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>xyzgmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Phone</td>
+                    <td>+91-9911xxxxxx</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

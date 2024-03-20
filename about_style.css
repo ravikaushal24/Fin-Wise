@@ -1,0 +1,84 @@
+
+body{
+    background:url("646557ee455c3e16e4a9bfa8_bg.jpg");
+   position: absolute;
+   background-size: cover;
+}
+.about-section{
+    background: url("background_pic.jpg") no-repeat left;
+    background-size: 70%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding:  0px ;
+    margin: 10rem 2rem 0px 2rem;
+    
+    
+}
+
+.about-heading {
+    font-size: 36px;
+    color: #000;
+    background: white;
+    
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    border: 2px solid black;
+    position: relative;
+    
+    
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    background: white;
+}
+
+ .skills, .skills span{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    background: white;
+    color: #000;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
